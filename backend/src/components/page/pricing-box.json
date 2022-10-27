@@ -2,7 +2,8 @@
   "collectionName": "components_page_pricing_boxes",
   "info": {
     "displayName": "pricingBox",
-    "icon": "comment-dollar"
+    "icon": "comment-dollar",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,23 +12,22 @@
       "required": true,
       "default": 415
     },
-    "numberInstallments": {
+    "discountPrice": {
       "type": "decimal",
-      "required": true
-    },
-    "priceInstallments": {
-      "type": "decimal",
-      "required": true
-    },
-    "benefits": {
-      "type": "richtext",
-      "default": "Create items as bullet list",
       "required": true
     },
     "button": {
       "type": "component",
       "repeatable": false,
       "component": "page.button",
+      "required": true
+    },
+    "benefits": {
+      "displayName": "benefits",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.benefits",
+      "max": 4,
       "required": true
     }
   }

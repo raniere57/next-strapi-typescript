@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_benefits",
+  "info": {
+    "displayName": "benefits",
+    "icon": "sort-amount-up"
+  },
+  "options": {},
+  "attributes": {
+    "benefitsItem": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

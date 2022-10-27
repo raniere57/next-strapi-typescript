@@ -2,7 +2,8 @@
   "collectionName": "components_page_section_concepts",
   "info": {
     "displayName": "sectionConcepts",
-    "icon": "list-ul"
+    "icon": "list-ul",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,7 +15,8 @@
       "displayName": "concepts",
       "type": "component",
       "repeatable": true,
-      "component": "page.concepts"
+      "component": "page.concepts",
+      "max": 18
     }
   }
 }
