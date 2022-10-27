@@ -1,0 +1,40 @@
+{
+  "name": "simple-nextjs-quick-start",
+  "version": "1.0.0",
+  "description": "Nextjs quick start",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "lint": "eslint src",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "yarn build && next export",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\""
+  },
+  "author": "Guilherme Louro",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.36",
+    "@types/styled-components": "^5.1.0",
+    "graphql": "^16.6.0",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "graphql-request": "^5.0.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "next": "^9.4.4",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.6.1",
+    "next-seo": "^4.5.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "react-mailchimp-subscribe": "^2.1.0",
+    "react-slick": "^0.26.1",
+    "resize-observer-polyfill": "^1.5.1",
+    "styled-components": "^5.1.1",
+    "styled-media-query": "^2.1.2",
+    "webp-loader": "^0.6.0"
+  }
+}
